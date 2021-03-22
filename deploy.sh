@@ -64,7 +64,7 @@ main() {
     kubectl create -f aut/deployment/network_policy
  
     echo "Deploying Ingress"
-    kubectl create -f aut/deployment/ingress
+    kubectl create -f aut/deployment/ingress/ingress_gke.yaml
     
 }
 
