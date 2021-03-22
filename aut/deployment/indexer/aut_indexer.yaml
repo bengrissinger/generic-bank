@@ -31,3 +31,8 @@ spec:
           value: "admin"
         - name: POSTGRES_PASSWORD
           value: "123"
+        resources:
+          limits:
+            cpu: ".025"
+          requests:
+            cpu: ".025"
