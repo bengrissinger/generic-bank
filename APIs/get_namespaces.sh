@@ -1,3 +1,3 @@
 #!/bin/bash
 
-curl 'https://securecloud.tufin.io/lighthouse/<tenant name>/<project name>/namespaces?' -H "Authorization: Bearer <scope all label ci token here>" | jq . 
+curl 'https://<tenant>.securecloud.tufin.io/api/orca/model/clusters/<cluster-name>/namespaces' -H "Authorization: Bearer <scope all label ci token here>" | jq . 
