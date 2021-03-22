@@ -31,3 +31,8 @@ spec:
           value: "http://balance"
         - name: MODE
           value: "customer"
+        resources:
+          limits:
+            cpu: ".025"
+          requests:
+            cpu: ".025"
