@@ -32,3 +32,8 @@ spec:
         image: tufinim/postgres
         ports:
         - containerPort: 8088
+        resources:
+          limits:
+            cpu: ".025"
+          requests:
+            cpu: ".025"
