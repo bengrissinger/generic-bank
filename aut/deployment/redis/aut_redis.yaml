@@ -24,3 +24,8 @@ spec:
         image: tufinim/redis
         ports:
         - containerPort: 8088
+        resources:
+          limits:
+            cpu: ".025"
+          requests:
+            cpu: ".025"
