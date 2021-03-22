@@ -27,3 +27,8 @@ spec:
           value: balance
         ports:
         - containerPort: 8085
+        resources:
+          limits:
+            cpu: ".025"
+          requests:
+            cpu: ".025"
