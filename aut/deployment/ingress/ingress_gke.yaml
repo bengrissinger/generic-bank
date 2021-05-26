@@ -9,32 +9,32 @@ spec:
       - path: /boa/admin/accounts
         backend:
           serviceName: admin
-          servicePort: 80
+          servicePort: 30080
       - path: /admin/*
         backend:
           serviceName: admin
-          servicePort: 80
+          servicePort: 30080
       - path: /admin/
         backend:
           serviceName: admin
-          servicePort: 80
+          servicePort: 30080
       - path: /time
         backend:
           serviceName: admin
-          servicePort: 80
+          servicePort: 30080
       - path: /customer/*
         backend:
           serviceName: customer
-          servicePort: 80
+          servicePort: 30080
       - path: /customer/
         backend:
           serviceName: customer
-          servicePort: 80
+          servicePort: 30080
       - path: /accounts/*
         backend:
           serviceName: customer
-          servicePort: 80
+          servicePort: 30080
       - path: /balance
         backend:
           serviceName: customer
-          servicePort: 80
+          servicePort: 30080
